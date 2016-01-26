@@ -27,6 +27,8 @@ namespace MetricStreamExample
 
             var people = new List<string> {"jim", "mike", "susie"};
 
+            //simulate already subscribed. This information would come from the actual message in the form of it not being the first
+            //phase transition or something else that tells us that this is not the first message related to an individuals
             var alreadySubscribed = new List<string>();
 
             var count = 0;
