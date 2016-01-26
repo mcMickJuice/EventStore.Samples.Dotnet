@@ -30,7 +30,8 @@ namespace WritingEvents
             const int DEFAULTPORT = 1113;
             //uncomment to enable verbose logging in client.
             var settings = ConnectionSettings.Create();//.EnableVerboseLogging().UseConsoleLogger();
-            using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(IPAddress.Loopback, DEFAULTPORT)))
+            var ipAddress = IPAddress.Parse("10.8.86.112");
+            using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(ipAddress, DEFAULTPORT)))
             {
                 conn.ConnectAsync().Wait();
                 for (var x = 0; x < 100; x++)

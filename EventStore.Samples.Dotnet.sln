@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingEvents", "WritingEvents\WritingEvents.csproj", "{9CEAEB22-90B5-4CF0-B9BB-9327DAE70D7F}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchupSubscription", "CatchupSubscription\CatchupSubscription.csproj", "{38AD531F-A4CA-4D68-B2C3-2612D72A103D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountBalance", "AccountBalance\AccountBalance.csproj", "{E449E7AE-98D6-4E75-96FA-4107B7E33E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricStreamExample", "MetricStreamExample\MetricStreamExample.csproj", "{EF2F39B6-4E89-4728-A9A3-43041E74F933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{3BD3700D-B309-459D-98BF-90688C7AE171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricStreamListener", "MetricStreamListener\MetricStreamListener.csproj", "{9E2BC7D1-382E-4A9B-B439-FF7E12D40A2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{E449E7AE-98D6-4E75-96FA-4107B7E33E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E449E7AE-98D6-4E75-96FA-4107B7E33E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E449E7AE-98D6-4E75-96FA-4107B7E33E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2F39B6-4E89-4728-A9A3-43041E74F933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2F39B6-4E89-4728-A9A3-43041E74F933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2F39B6-4E89-4728-A9A3-43041E74F933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2F39B6-4E89-4728-A9A3-43041E74F933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD3700D-B309-459D-98BF-90688C7AE171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD3700D-B309-459D-98BF-90688C7AE171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD3700D-B309-459D-98BF-90688C7AE171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD3700D-B309-459D-98BF-90688C7AE171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2BC7D1-382E-4A9B-B439-FF7E12D40A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2BC7D1-382E-4A9B-B439-FF7E12D40A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2BC7D1-382E-4A9B-B439-FF7E12D40A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2BC7D1-382E-4A9B-B439-FF7E12D40A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
